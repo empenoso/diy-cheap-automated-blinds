@@ -1,0 +1,57 @@
+- alias: Covers OPEN
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.osveshchennost_u_okna_of_329
+      above: 0
+      below: 2500 
+  condition: 
+    - condition: state
+      entity_id: cover.zhaliuzi_3
+      state: 'closed'
+    - condition: state
+      entity_id: cover.zhaliuzi_2
+      state: 'closed'
+    - condition: state
+      entity_id: cover.zhaliuzi_1
+      state: 'closed'
+  action:
+    - service: cover.open_cover
+      data:
+        entity_id: cover.zhaliuzi_3
+    - delay: '00:00:06'
+    - service: cover.open_cover
+      data:
+        entity_id: cover.zhaliuzi_2
+    - delay: '00:00:06'
+    - service: cover.open_cover
+      data:
+        entity_id: cover.zhaliuzi_1
+
+- alias: Covers CLOSE
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.osveshchennost_u_okna_of_329
+      above: 2501
+      below: 50000
+  condition: 
+    - condition: state
+      entity_id: cover.zhaliuzi_3
+      state: 'open'
+    - condition: state
+      entity_id: cover.zhaliuzi_2
+      state: 'open'
+    - condition: state
+      entity_id: cover.zhaliuzi_1
+      state: 'open'
+  action:
+    - service: cover.close_cover
+      data:
+        entity_id: cover.zhaliuzi_3
+    - delay: '00:00:06'
+    - service: cover.close_cover
+      data:
+        entity_id: cover.zhaliuzi_2
+    - delay: '00:00:06'
+    - service: cover.close_cover
+      data:
+        entity_id: cover.zhaliuzi_1
