@@ -1,0 +1,134 @@
+substitutions:
+  devicename: window_3
+  upper_devicename: Window 3
+
+esphome:
+  name: $devicename
+  platform: ESP8266
+  board: d1_mini
+
+wifi:
+  ssid: "xxx"
+  password: "xxx"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Window 3 Fallback Hotspot"
+    password: "xxx"
+
+captive_portal:
+
+# web_server:
+#   port: 80
+#   css_url: http://192.168.15.10:8123/local/webserver-v1.min.css 
+#   js_url: http://192.168.15.10:8123/local/webserver-v1.min.js
+
+# Enable Home Assistant API
+api:
+  services:
+    - service: control_stepper
+      variables:
+        target: int
+      then:
+        - stepper.set_target:
+            id: my_stepper
+            target: !lambda 'return target;'
+
+# Enable OTA Access
+ota:
+ 
+# Enable verbose logging over serial
+logger:
+
+# physical connection
+stepper: 
+  - platform: uln2003
+    id: my_stepper
+    pin_a: D0
+    pin_b: D5
+    pin_c: D6
+    pin_d: D7
+    max_speed: 250 steps/s
+    sleep_when_done: true    
+    acceleration: inf
+    deceleration: inf
+
+cover:
+  - platform: template
+    name: "Zhaliuzi 3"
+    id: window3
+    device_class: blind
+
+    open_action:
+      - stepper.report_position:
+          id: my_stepper
+          position: 0
+      - stepper.set_target:
+          id: my_stepper
+          target: -1600
+
+    close_action:
+      - stepper.report_position:
+          id: my_stepper
+          position: 0
+      - stepper.set_target:
+          id: my_stepper
+          target: 1600
+
+    stop_action:
+      - stepper.set_target:
+          id: my_stepper
+          target: !lambda return id(my_stepper).current_position;      
+    optimistic: true  
+    assumed_state: true 
+    
+# General device data
+sensor:
+  - platform: uptime
+    id: uptime_sec
+  - platform: wifi_signal
+    name: ${upper_devicename} WiFi Signal
+    id: wifis_signal
+    update_interval: 900s
+
+text_sensor:
+  - platform: template
+    name: ${upper_devicename} Uptime
+    lambda: |-
+      int seconds = (id(uptime_sec).state);
+      int days = seconds / (24 * 3600);
+      seconds = seconds % (24 * 3600); 
+      int hours = seconds / 3600;
+      seconds = seconds % 3600;
+      int minutes = seconds /  60;
+      seconds = seconds % 60;
+      return { (String(days) +"d " + String(hours) +"h " + String(minutes) +"m "+ String(seconds) +"s").c_str() };
+    icon: mdi:clock-start
+    update_interval: 113s
+  - platform: template
+    name: ${upper_devicename} Wifi Strength
+    icon: "mdi:wifi"
+    lambda: |-
+      if (id(wifis_signal).state > -50 ) {
+        return {"Excellent"};
+      } else if (id(wifis_signal).state > -60) {
+        return {"Good"};
+      } else if (id(wifis_signal).state > -70) {
+        return {"Fair"};
+      } else if (id(wifis_signal).state < -70) {
+        return {"Weak"};
+      } else {
+        return {"None"};
+      }
+    update_interval: 900s
+  - platform: version
+    name: ${upper_devicename} Version
+  - platform: template
+    name: ${upper_devicename} MAC Address
+    lambda: 'return {WiFi.macAddress().c_str()};'
+    icon: mdi:fingerprint
+    update_interval: 1d
+    
+switch:
+  - platform: restart
+    name: ${upper_devicename} Restart
