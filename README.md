@@ -10,9 +10,11 @@ Low price automation of blinds :electric_plug:
 
 4. [AC-DC 100-240V To 5V 2.5A Switching Power Supply Module](https://www.aliexpress.com/item/32898716031.html) * 1 pieces
 
-## Firmware
+## [ESPHome](https://esphome.io/components/stepper/index.html) firmware
  
-[ESPHome](https://esphome.io/components/stepper/index.html)
+ 
+## Automation rule for [Home Assistant](https://www.home-assistant.io/docs/automation/)
+
 
 ## Photos
 ![Photos](/IMG_20191026_101014.jpg)
