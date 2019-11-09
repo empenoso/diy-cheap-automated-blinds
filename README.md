@@ -15,3 +15,6 @@ Low price automation of blinds :electric_plug:
 [ESPHome](https://esphome.io/components/stepper/index.html)
 
 ## Photos
+![Photos](/IMG_20191026_101014.jpg)
+![Photos](/IMG_20191026_101100.jpg)
+![Photos](/IMG_20191026_103251.jpg)
