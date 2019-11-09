@@ -1,6 +1,5 @@
 # DIY Motorize & Automate Blinds
 Low price of automation of blinds :electric_plug:
-___________
 
 ## Parts
 1. [Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
@@ -14,3 +13,5 @@ ___________
 ## Firmware
  
 [ESPHome](https://esphome.io/components/stepper/index.html)
+
+## Photos
