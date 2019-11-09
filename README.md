@@ -15,6 +15,7 @@ Low price automation of blinds :electric_plug:
  
 ## Automation rule for [Home Assistant](https://www.home-assistant.io/docs/automation/)
 
+Depending on the light level, the blinds [rotate 90 degrees.](/automations.yaml)
 
 ## Photos
 ![Photos](/IMG_20191026_101014.jpg)
