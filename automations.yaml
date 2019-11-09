@@ -1,7 +1,7 @@
 - alias: Covers OPEN
   trigger:
     - platform: numeric_state
-      entity_id: sensor.osveshchennost_u_okna_of_329
+      entity_id: sensor.osveshchennost_u_okna
       above: 0
       below: 2500 
   condition: 
@@ -30,7 +30,7 @@
 - alias: Covers CLOSE
   trigger:
     - platform: numeric_state
-      entity_id: sensor.osveshchennost_u_okna_of_329
+      entity_id: sensor.osveshchennost_u_okna
       above: 2501
       below: 50000
   condition: 
