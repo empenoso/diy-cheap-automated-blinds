@@ -1,5 +1,5 @@
 # DIY Motorize & Automate Blinds
-Low price of automation of blinds :electric_plug:
+Low price automation of blinds :electric_plug:
 
 ## Parts
 1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
