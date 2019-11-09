@@ -12,10 +12,14 @@ Low price automation of blinds :electric_plug:
 
 ## [ESPHome](https://esphome.io/components/stepper/index.html) firmware
  
+I am use [ESPHome Hass.io Add-On](https://github.com/esphome/hassio) to compile:
+- [window_1.yaml](window_1.yaml)
+- [window_2.yaml](window_2.yaml)
+- [window_3.yaml](window_3.yaml)
  
 ## Automation rule for [Home Assistant](https://www.home-assistant.io/docs/automation/)
 
-Depending on the light level, the blinds [rotate 90 degrees.](/automations.yaml)
+Depending on the light level, the blinds [rotate 90 degrees.](automations.yaml)
 
 ## Photos
 ![Photos](/IMG_20191026_101014.jpg)
