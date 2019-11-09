@@ -21,6 +21,8 @@ I am use [ESPHome Hass.io Add-On](https://github.com/esphome/hassio) to compile:
 
 Depending on the light level, the blinds [rotate 90 degrees.](automations.yaml)
 
+![Home Assistant\Integrations](Home%20Assistant_integrations.png)
+
 ## Photos
 ![Photos](/IMG_20191026_101014.jpg)
 ![Photos](/IMG_20191026_101100.jpg)
