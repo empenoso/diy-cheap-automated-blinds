@@ -5,11 +5,11 @@ Low price automation of blinds :electric_plug:. Blinds are also cheap.
 I use ESP8266 with firmware that is native to Home Assistant. Without using MQTT.
 
 ## Table of contents
-- [Parts](https://github.com/empenoso/diy-cheap-automated-blinds#parts)
-- [ESPHome firmware](https://github.com/empenoso/diy-cheap-automated-blinds#esphome-firmware)
-- [Automation rule for Home Assistant](https://github.com/empenoso/diy-cheap-automated-blinds#automation-rule-for-home-assistant)
-- [Photos](https://github.com/empenoso/diy-cheap-automated-blinds#photos)
-- [Advantages and Disadvantages of Project](https://github.com/empenoso/diy-cheap-automated-blinds#advantages-and-disadvantages-of-project)
+- [Parts](https://github.com/empenoso/diy-cheap-automated-blinds#parts-top)
+- [ESPHome firmware](https://github.com/empenoso/diy-cheap-automated-blinds#esphome-firmware-top)
+- [Automation rule for Home Assistant](https://github.com/empenoso/diy-cheap-automated-blinds#automation-rule-for-home-assistant-top)
+- [Photos](https://github.com/empenoso/diy-cheap-automated-blinds#photos-top)
+- [Advantages and Disadvantages of Project](https://github.com/empenoso/diy-cheap-automated-blinds#advantages-and-disadvantages-of-project-top)
 
 ## Parts [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
 1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
