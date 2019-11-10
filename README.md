@@ -1,5 +1,7 @@
-# DIY Motorize & Automate Blinds
-Low price automation of blinds :electric_plug:
+# DIY Motorize & Automate Blinds ![GitHub](https://img.shields.io/github/license/empenoso/diy-cheap-automated-blinds)
+Low price automation of blinds :electric_plug:. Blinds are also cheap.
+
+I use ESP8266 with firmware that is native to Home Assistant. Without using MQTT.
 
 ## Parts
 1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
@@ -29,3 +31,7 @@ Depending on the light level, the blinds [rotate 90 degrees.](automations.yaml)
 ![Photos](/IMG_20191026_101014.jpg)
 ![Photos](/IMG_20191026_101100.jpg)
 ![Photos](/IMG_20191026_103251.jpg)
+
+## Advantages and Disadvantages of Project
++ Cheap.
+- The microcontroller does not know the current position of the blinds. Sometimes you have to spin manually by command from the Home Assistant interface.
