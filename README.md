@@ -3,6 +3,13 @@ Low price automation of blinds :electric_plug:. Blinds are also cheap.
 
 I use ESP8266 with firmware that is native to Home Assistant. Without using MQTT.
 
+## Table of contents
+- [Parts](https://github.com/empenoso/diy-cheap-automated-blinds#parts)
+- [ESPHome firmware](https://github.com/empenoso/diy-cheap-automated-blinds#esphome-firmware)
+- [Automation rule for Home Assistant](https://github.com/empenoso/diy-cheap-automated-blinds#automation-rule-for-home-assistant)
+- [Photos](https://github.com/empenoso/diy-cheap-automated-blinds#photos)
+- [Advantages and Disadvantages of Project](https://github.com/empenoso/diy-cheap-automated-blinds#advantages-and-disadvantages-of-project)
+
 ## Parts
 1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
 
@@ -34,4 +41,4 @@ Depending on the light level, the blinds [rotate 90 degrees.](automations.yaml)
 
 ## Advantages and Disadvantages of Project
 + Cheap.
-- The microcontroller does not know the current position of the blinds. Sometimes you have to spin manually by command from the Home Assistant interface.
+- ESP8266 does not know the current position of the blinds. Sometimes you have to spin manually by command from the Home Assistant interface.
