@@ -11,7 +11,7 @@ I use ESP8266 with firmware that is native to Home Assistant. Without using MQTT
 - [Photos](https://github.com/empenoso/diy-cheap-automated-blinds#photos)
 - [Advantages and Disadvantages of Project](https://github.com/empenoso/diy-cheap-automated-blinds#advantages-and-disadvantages-of-project)
 
-## Parts 
+## Parts [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
 1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
 
 2. [28BYJ-48 5V 4 Phase DC Gear Stepper Motor + ULN2003 Driver Board](https://www.aliexpress.com/item/32896006818.html) * 3 pieces
