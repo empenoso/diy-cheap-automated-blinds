@@ -1,5 +1,4 @@
-# DIY Motorize & Automate Blinds ![GitHub](https://img.shields.io/github/license/empenoso/diy-cheap-automated-blinds)
-![GitHub](https://img.shields.io/badge/labor%20hours-1%20day-orange)
+# DIY Motorize & Automate Blinds ![GitHub](https://img.shields.io/github/license/empenoso/diy-cheap-automated-blinds) ![GitHub](https://img.shields.io/badge/labor%20hours-1%20day-orange)
 
 Low price automation of blinds :electric_plug:. Blinds are also cheap.
 
