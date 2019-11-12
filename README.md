@@ -4,6 +4,8 @@ Low price automation of blinds :electric_plug:. Blinds are also cheap.
 
 I use ESP8266 with firmware that is native to Home Assistant. Without using MQTT.
 
+Read this in other languages: [English](README.md), [Русский язык](README.ru.md).
+
 ## Table of contents
 - [Parts](https://github.com/empenoso/diy-cheap-automated-blinds#parts-top)
 - [ESPHome firmware](https://github.com/empenoso/diy-cheap-automated-blinds#esphome-firmware-top)
