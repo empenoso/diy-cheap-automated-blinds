@@ -6,6 +6,8 @@ I use ESP8266 with firmware that is native to Home Assistant. Without using MQTT
 
 Read this in other languages: [English](README.md), [Русский язык](README.ru.md).
 
+_______________
+
 ## Table of contents
 - [Parts](https://github.com/empenoso/diy-cheap-automated-blinds#parts-top)
 - [ESPHome firmware](https://github.com/empenoso/diy-cheap-automated-blinds#esphome-firmware-top)
@@ -20,11 +22,11 @@ Read this in other languages: [English](README.md), [Русский язык](RE
 
 3. [LOLIN D1 mini V3.1.0 - WEMOS WIFI Internet of Things development board based ESP8266](https://www.aliexpress.com/item/32529101036.html) * 3 pieces
 
-4. [AC-DC 100-240V To 5V 2.5A Switching Power Supply Module](https://www.aliexpress.com/item/32898716031.html) * 1 pieces
+4. [AC-DC 100-240V To 5V 2.5A Switching Power Supply Module](https://www.aliexpress.com/item/32898716031.html) * 1 piece
 
 ## [ESPHome](https://esphome.io/components/stepper/index.html) firmware [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
  
-I am use [ESPHome Hass.io Add-On](https://github.com/esphome/hassio) to compile:
+I use [ESPHome Hass.io Add-On](https://github.com/esphome/hassio) to compile:
 - [window_1.yaml](window_1.yaml)
 - [window_2.yaml](window_2.yaml)
 - [window_3.yaml](window_3.yaml)
@@ -42,6 +44,6 @@ Depending on the light level, the blinds [rotate 90 degrees.](automations.yaml)
 ![Photos](/IMG_20191026_101100.jpg)
 ![Photos](/IMG_20191026_103251.jpg)
 
-## Advantages and Disadvantages of Project [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
+## Advantages and Disadvantages of the Project [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
 + Cheap.
-- ESP8266 does not know the current position of the blinds. Sometimes you have to spin manually by command from the Home Assistant interface.
+- ESP8266 does not know the current position of the blinds. Sometimes you have to spin manually by a command from the Home Assistant interface.
