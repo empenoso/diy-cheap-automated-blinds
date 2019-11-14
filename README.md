@@ -13,7 +13,7 @@ _______________
 - [ESPHome firmware](https://github.com/empenoso/diy-cheap-automated-blinds#esphome-firmware-top)
 - [Automation rule for Home Assistant](https://github.com/empenoso/diy-cheap-automated-blinds#automation-rule-for-home-assistant-top)
 - [Photos](https://github.com/empenoso/diy-cheap-automated-blinds#photos-top)
-- [Advantages and Disadvantages of Project](https://github.com/empenoso/diy-cheap-automated-blinds/blob/master/README.md#advantages-and-disadvantages-of-the-project-top)
+- [Advantages and Disadvantages of the Project](https://github.com/empenoso/diy-cheap-automated-blinds/blob/master/README.md#advantages-and-disadvantages-of-the-project-top)
 
 ## Parts [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
 1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
