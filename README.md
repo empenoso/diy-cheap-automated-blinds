@@ -40,9 +40,15 @@ Depending on the light level, the blinds [rotate 90 degrees.](automations.yaml)
 ![Home Assistant\Integrations](Home%20Assistant_integrations.png)
 
 ## Photos [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
-![Photos](/IMG_20191026_101014.jpg)
+![Photos](/IMG_20191119_165431.jpg)
 ![Photos](/IMG_20191026_101100.jpg)
 ![Photos](/IMG_20191026_103251.jpg)
+
+_____
+
+![Photos](/IMG_20191119_165431.jpg)
+![Photos](/IMG_20191119_165528.jpg)
+![Photos](/IMG_20191119_165636.jpg)
 
 ## Advantages and Disadvantages of the Project [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
 + Cheap.
