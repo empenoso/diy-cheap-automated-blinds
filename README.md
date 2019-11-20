@@ -16,7 +16,7 @@ _______________
 - [Advantages and Disadvantages of the Project](https://github.com/empenoso/diy-cheap-automated-blinds/blob/master/README.md#advantages-and-disadvantages-of-the-project-top)
 
 ## Parts [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
-1. [Leroy Merlin Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
+1. [Leroy Merlin 25mm / 1'' Blinds Inspire 100x160 cm aluminum color white](https://perm.leroymerlin.ru/product/zhalyuzi-inspire-100h160-sm-alyuminiy-cvet-belyy-16262144/) * 3 pieces
 
 2. [28BYJ-48 5V 4 Phase DC Gear Stepper Motor + ULN2003 Driver Board](https://www.aliexpress.com/item/32896006818.html) * 3 pieces
 
