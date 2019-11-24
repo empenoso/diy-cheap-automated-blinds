@@ -24,6 +24,8 @@ _______________
 
 4. [AC-DC 100-240V To 5V 2.5A Switching Power Supply Module](https://www.aliexpress.com/item/32898716031.html) * 1 piece
 
+5. [3mm-5mm Brass Rigid Motor Shaft Coupling Coupler Motor Transmission Connector with Screws Wrench](https://www.aliexpress.com/item/33015747654.html) * 3 pieces (Thanks [@KennethLavrsen](https://github.com/KennethLavrsen)  for the tip)
+
 ## [ESPHome](https://esphome.io/components/stepper/index.html) firmware [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
  
 I use [ESPHome Hass.io Add-On](https://github.com/esphome/hassio) to compile:
