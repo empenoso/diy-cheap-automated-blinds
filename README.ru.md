@@ -22,6 +22,8 @@ __________
 
 4. [Блок питания AC-DC 100-240V To 5V 2.5A Switching Power Supply Module](https://www.aliexpress.com/item/32898716031.html) * 1 штука
 
+5. [3mm-5mm соединительная втулка](https://www.aliexpress.com/item/33015747654.html) * 3 штуки (Спасибо [@KennethLavrsen](https://github.com/KennethLavrsen)  за совет)
+
 ## Прошивка [ESPHome](https://esphome.io/components/stepper/index.html) для ESP8266, которая управляет моторчиком в жалюзи [:top:](https://github.com/empenoso/diy-cheap-automated-blinds/blob/master/README.ru.md#%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D1%8B%D1%85-%D0%B6%D0%B0%D0%BB%D1%8E%D0%B7%D0%B8--)
  
 Я использую [дополнение для ESPHome Hass.io](https://github.com/esphome/hassio) для компиляции следующих файлов:
