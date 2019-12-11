@@ -35,7 +35,7 @@ __________
 
 ## Правила для автоматизации закрытия жалюзи из [Home Assistant](https://www.home-assistant.io/docs/automation/) [:top:](https://github.com/empenoso/diy-cheap-automated-blinds/blob/master/README.ru.md#%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D1%8B%D1%85-%D0%B6%D0%B0%D0%BB%D1%8E%D0%B7%D0%B8--)
 
-При привышении определенного порога жалюзи [поворачиваются на 90 градусов](automations.yaml) и потом обратно соответственно.
+При превышении определенного порога жалюзи [поворачиваются на 90 градусов](automations.yaml) и потом обратно соответственно.
 
 ![Home Assistant\Integrations](Home%20Assistant_integrations.png)
 
