@@ -56,6 +56,6 @@ _____
 + Cheap.
 - ESP8266 does not know the current position of the blinds. Sometimes you have to spin manually by a command from the Home Assistant interface.
 
-## Additional information
+## Additional information [:top:](https://github.com/empenoso/diy-cheap-automated-blinds#diy-motorize--automate-blinds--)
 
 Additional information [in the article (in Russian)](https://habr.com/ru/post/480690/).
