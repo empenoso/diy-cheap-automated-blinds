@@ -56,5 +56,5 @@ _____
 
 ## Подробности [:top:](https://github.com/empenoso/diy-cheap-automated-blinds/blob/master/README.ru.md#%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B5%D1%88%D0%B5%D0%B2%D1%8B%D1%85-%D0%B6%D0%B0%D0%BB%D1%8E%D0%B7%D0%B8--)
 
-Дополнительная информация [в статье на сайте](https://habr.com/ru/post/480690/).
+Дополнительная информация [в статье на Хабре](https://habr.com/ru/post/480690/).
 
